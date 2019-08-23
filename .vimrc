@@ -174,3 +174,7 @@ inoremap jk <esc>
 " esc in command mode
 cnoremap kj <C-C>
 cnoremap jk <C-C>
+
+" Use clipboard as default register
+set clipboard=unnamed
+set clipboard=unnamedplus
