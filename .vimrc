@@ -178,3 +178,35 @@ cnoremap jk <C-C>
 " Use clipboard as default register
 set clipboard=unnamed
 set clipboard=unnamedplus
+
+" Shortcut to use blackhole register by default
+nnoremap d "_d
+vnoremap d "_d
+nnoremap D "_D
+vnoremap D "_D
+nnoremap c "_c
+vnoremap c "_c
+nnoremap C "_C
+vnoremap C "_C
+nnoremap x "_x
+vnoremap x "_x
+nnoremap X "_X
+vnoremap X "_X
+
+" Change <leader> to be comma
+let mapleader = ","
+let g:mapleader = ","
+
+" Shortcut to use clipboard with <leader>
+nnoremap <leader>d d
+vnoremap <leader>d d
+nnoremap <leader>D D
+nnoremap <leader>D D
+nnoremap <leader>c c
+nnoremap <leader>c c
+nnoremap <leader>C C
+vnoremap <leader>C C
+vnoremap <leader>x x
+vnoremap <leader>x x
+vnoremap <leader>X X
+vnoremap <leader>X X
