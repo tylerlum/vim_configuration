@@ -176,8 +176,11 @@ cnoremap kj <C-C>
 cnoremap jk <C-C>
 
 " Use clipboard as default register
-set clipboard=unnamed
-set clipboard=unnamedplus
+if system('uname -s') == "Darwin\n"
+  set clipboard=unnamed "OSX
+else
+  set clipboard=unnamedplus "Linux
+endif
 
 " Shortcut to use blackhole register by default
 nnoremap d "_d
