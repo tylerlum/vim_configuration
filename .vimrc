@@ -204,12 +204,12 @@ let g:mapleader = ","
 nnoremap <leader>d d
 vnoremap <leader>d d
 nnoremap <leader>D D
-nnoremap <leader>D D
+vnoremap <leader>D D
 nnoremap <leader>c c
-nnoremap <leader>c c
+vnoremap <leader>c c
 nnoremap <leader>C C
 vnoremap <leader>C C
+nnoremap <leader>x x
 vnoremap <leader>x x
-vnoremap <leader>x x
-vnoremap <leader>X X
+nnoremap <leader>X X
 vnoremap <leader>X X
