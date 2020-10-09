@@ -113,7 +113,7 @@ set t_vb=
 " set mouse=a
 
 " Set the command window height to 2 lines, to avoid many cases of having to
-" "press <Enter> to continue"
+" press <Enter> to continue
 set cmdheight=2
 
 " Display line numbers on the left
@@ -213,3 +213,7 @@ nnoremap <leader>x x
 vnoremap <leader>x x
 nnoremap <leader>X X
 vnoremap <leader>X X
+
+" Save register to clipboard even after vim session is closed. Requires
+" install of xsel. Eg. `sudo apt-get install xsel`
+autocmd VimLeave * call system("echo -n $'" . escape(getreg(), "'") . "' | xsel -ib")
