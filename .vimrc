@@ -217,3 +217,6 @@ vnoremap <leader>X X
 " Save register to clipboard even after vim session is closed. Requires
 " install of xsel. Eg. `sudo apt-get install xsel`
 autocmd VimLeave * call system("echo -n $'" . escape(getreg(), "'") . "' | xsel -ib")
+
+" Add blank lines with enter in command mode
+map <Enter> o<ESC>
