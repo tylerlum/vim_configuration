@@ -18,6 +18,12 @@ This repository contains a `.vimrc` configuration file for the vim setup that I 
 
 * Make `d`, `D`, `c`, `C`, `x`, and `X` not overwrite the register by default, but can still save to register with `,d`, `,D`, `,c`, `,C`, `,x`, and `,X`.
 
+* Find occurrences of variable by hoving over the variable and pressing `*`
+
+* Enter blank lines from command mode with <Enter>, so you can create 70 blank lines with 70<Enter>
+
+* Autocomplete with `CTRL+n`, then scroll down with `CTRL+n` and scroll up with `CTRL+p`
+
 The basic structure comes from http://vim.wikia.com/wiki/Example_vimrc, which gave me a great starting point to customize my vim use.
 
 
