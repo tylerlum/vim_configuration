@@ -214,6 +214,10 @@ vnoremap <leader>x x
 nnoremap <leader>X X
 vnoremap <leader>X X
 
+" Delete and paste in one click
+map r diwP
+map R diWP
+
 " Save register to clipboard even after vim session is closed. Requires
 " install of xsel. Eg. `sudo apt-get install xsel`
 autocmd VimLeave * call system("echo -n $'" . escape(getreg(), "'") . "' | xsel -ib")
