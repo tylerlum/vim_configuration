@@ -24,7 +24,7 @@ This repository contains a `.vimrc` configuration file for the vim setup that I 
 
 * Autocomplete with `CTRL+n`, then scroll down with `CTRL+n` and scroll up with `CTRL+p`
 
-* Delete and paste word in one click with `r` and `R`
+* Delete and paste word in one click with `R`
 
 The basic structure comes from http://vim.wikia.com/wiki/Example_vimrc, which gave me a great starting point to customize my vim use.
 
