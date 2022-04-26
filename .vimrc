@@ -178,6 +178,8 @@ cnoremap jk <C-C>
 " Use clipboard as default register
 if system('uname -s') == "Darwin\n"
   set clipboard=unnamed "OSX
+elseif system('uname -s') == "MINGW64_NT-10.0-22000\n"
+  set clipboard=unnamed "Windows
 else
   set clipboard=unnamedplus "Linux
 endif
