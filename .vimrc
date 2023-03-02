@@ -170,10 +170,22 @@ set list
 " esc in insert mode
 inoremap kj <esc>
 inoremap jk <esc>
+inoremap Kj <C-C>
+inoremap jK <C-C>
+inoremap kJ <C-C>
+inoremap Jk <C-C>
+inoremap KJ <C-C>
+inoremap JK <C-C>
 
 " esc in command mode
 cnoremap kj <C-C>
 cnoremap jk <C-C>
+cnoremap Kj <C-C>
+cnoremap jK <C-C>
+cnoremap kJ <C-C>
+cnoremap Jk <C-C>
+cnoremap KJ <C-C>
+cnoremap JK <C-C>
 
 " Use clipboard as default register
 if system('uname -s') == "Darwin\n"
